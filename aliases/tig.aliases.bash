@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 
-# alias td='git diff "$@" | tig'
-# alias tds='git diff --staged "$@" | tig'
-# alias tsh='tig show'
+alias ta='tig --all'
+alias tr='tig refs'
