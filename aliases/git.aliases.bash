@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# alias gcl='git clone'
+alias gcl='git clone'
 # alias ga='git add'
 # alias grm='git rm'
 # alias gap='git add -p'
