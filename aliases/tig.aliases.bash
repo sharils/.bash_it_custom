@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-alias ta='tig --all'
-alias tr='tig refs'
+alias tga='tig --all'
+alias tgr='tig refs'
