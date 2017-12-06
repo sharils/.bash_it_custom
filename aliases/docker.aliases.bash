@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 alias dk="docker"
-alias dkb="docker build $USER/$(basename $PWD) ."
+alias dkb="docker build --tag $USER/$(basename $PWD) ."
 alias dkrr="docker run --interactive --rm --tty --volume $PWD:$PWD --workdir $PWD"
 alias dkru="docker run --interactive --rm --tty --user $(id -u):$(id -g) --volume $PWD:$PWD --workdir $PWD"
 
