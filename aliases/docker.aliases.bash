@@ -2,6 +2,7 @@
 
 alias dk="docker"
 alias dkb="docker build --tag $USER/$(basename $PWD) ."
+alias dkbr="docker build --tag $USER/$(basename $PWD) . && docker run --interactive --rm --tty $USER/$(basename $PWD)"
 alias dkrr="docker run --interactive --rm --tty --volume $PWD:$PWD --workdir $PWD"
 alias dkru="docker run --interactive --rm --tty --user $(id -u):$(id -g) --volume $PWD:$PWD --workdir $PWD"
 
